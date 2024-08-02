@@ -11,5 +11,5 @@ app.get("/", cacheMiddleware(4000), (_, res) => {
 });
 
 app.listen(PORT, () => {
-    console.info(`Server listening on port http://localhost:${PORT}/`);
+    console.info(`Server listening on port http://localhost:${PORT}/ 🦅🏋`);
 });
