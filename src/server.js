@@ -5,10 +5,10 @@ const app = express();
 
 app.get("/", (_, res) => {
     setTimeout(() => {
-        res.status(200).send("🦅🏋");
+        res.status(200).send("Without caching 🥱");
     }, 2000);
 });
 
 app.listen(PORT, () => {
-    console.info(`Server listening on port http://localhost:${PORT}/`);
+    console.info(`Server listening on port http://localhost:${PORT}/ 🛏😴`);
 });
